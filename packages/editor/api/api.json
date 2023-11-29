@@ -43201,6 +43201,15 @@
             },
             {
               "kind": "Content",
+              "text": "[];\n    bindingUtils?: readonly "
+            },
+            {
+              "kind": "Reference",
+              "text": "TLAnyBindingUtilConstructor",
+              "canonicalReference": "@tldraw/editor!~TLAnyBindingUtilConstructor:type"
+            },
+            {
+              "kind": "Content",
               "text": "[];\n})"
             },
             {
@@ -43213,7 +43222,7 @@
           "name": "TLStoreOptions",
           "typeTokenRange": {
             "startIndex": 1,
-            "endIndex": 14
+            "endIndex": 16
           }
         },
         {

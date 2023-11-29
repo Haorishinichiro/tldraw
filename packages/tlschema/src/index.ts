@@ -1,4 +1,10 @@
 export {
+	bindingIdValidator,
+	createBindingValidator,
+	type BindingProps,
+	type TLBaseBinding,
+} from './TLBaseBinding'
+export {
 	type TLSerializedStore,
 	type TLStore,
 	type TLStoreProps,
@@ -10,7 +16,12 @@ export { type TLBookmarkAsset } from './assets/TLBookmarkAsset'
 export { type TLImageAsset } from './assets/TLImageAsset'
 export { type TLVideoAsset } from './assets/TLVideoAsset'
 export { createPresenceStateDerivation } from './createPresenceStateDerivation'
-export { createTLSchema, type SchemaShapeInfo, type TLSchema } from './createTLSchema'
+export {
+	createTLSchema,
+	type SchemaBindingInfo,
+	type SchemaShapeInfo,
+	type TLSchema,
+} from './createTLSchema'
 export {
 	TL_CANVAS_UI_COLOR_TYPES,
 	canvasUiColorTypeValidator,
@@ -36,6 +47,19 @@ export {
 	type TLAssetPartial,
 	type TLAssetShape,
 } from './records/TLAsset'
+export {
+	createBindingId,
+	isBinding,
+	isBindingId,
+	rootBindingMigrations,
+	type TLBinding,
+	type TLBindingId,
+	type TLBindingPartial,
+	type TLBindingProp,
+	type TLBindingProps,
+	type TLDefaultBinding,
+	type TLUnknownBinding,
+} from './records/TLBinding'
 export { CameraRecordType, type TLCamera, type TLCameraId } from './records/TLCamera'
 export { DocumentRecordType, TLDOCUMENT_ID, type TLDocument } from './records/TLDocument'
 export { TLINSTANCE_ID, type TLInstance, type TLInstanceId } from './records/TLInstance'
